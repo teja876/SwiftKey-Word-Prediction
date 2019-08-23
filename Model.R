@@ -241,24 +241,24 @@ saveRDS(df.quad, "./WordPrediction/quadgram.rds")
 
 
 # split <- function(x){
-  splitwords <- unlist(strsplit(x, " "))
-  len <- length(splitwords)
-  if(len == 2){
-    df.bi$w1 <- splitwords[1]
-    df.bi$w2 <- splitwords[2]
-  }
-  if(len == 3){
-    df.tri$w1 <- splitwords[1]
-    df.tri$w2 <- splitwords[2]
-    df.tri$w3 <- splitwords[3]
-  }
-  if(len == 4){
-    df.quad$w1 <- splitwords[1]
-    df.quad$w2 <- splitwords[2]
-    df.quad$w3 <- splitwords[3]
-    df.quad$w4 <- splitwords[4]
-  }
-}
+#   splitwords <- unlist(strsplit(x, " "))
+#   len <- length(splitwords)
+#   if(len == 2){
+#     df.bi$w1 <- splitwords[1]
+#     df.bi$w2 <- splitwords[2]
+#   }
+#   if(len == 3){
+#     df.tri$w1 <- splitwords[1]
+#     df.tri$w2 <- splitwords[2]
+#     df.tri$w3 <- splitwords[3]
+#   }
+#   if(len == 4){
+#     df.quad$w1 <- splitwords[1]
+#     df.quad$w2 <- splitwords[2]
+#     df.quad$w3 <- splitwords[3]
+#     df.quad$w4 <- splitwords[4]
+#   }
+# }
 
 
 
